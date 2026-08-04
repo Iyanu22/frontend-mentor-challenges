@@ -23,7 +23,7 @@
       --secondary-color: hsl(0, 0%, 42%);
       --text-color: hsl(0, 0%, 7%);
     }
-    h1{font-size: clamp(1.25rem, 1rem + 1.5vw, 1.5rem); font-weight: 800; white-space: nowrap;}
+    h1{font-size: clamp(1.25rem, 4vw, 1.5rem); font-weight: 800; white-space: normal;}
     h1:hover { color: var(--primary-color); cursor: pointer; } 
     @media (prefers-reduced-motion: reduce) {
       h1:hover { transition: color 0.3s ease-in-out; }
@@ -36,16 +36,17 @@
     .author{display: flex; align-items: center; gap: 1rem; margin-block-start: 2rem;}
     .author img{width: 3.125rem; height: 3.125rem; border-radius: 50%;}
 body{background-color: var(--primary-color);}
-.container{box-sizing: border-box; max-width: 24rem; overflow:hidden;background-color: hsl(0, 0%, 100%); border:1px solid black; border-radius: 10px; padding: 2rem; width: 90%; margin: 3rem auto; box-shadow:10px 10px #000; font-family: 'Outfit', sans-serif;}
+.container{box-sizing: border-box; overflow:visible;background-color: hsl(0, 0%, 100%); border:1px solid black; border-radius: 10px; padding: clamp(1.5rem, 5vw, 2rem); width:min(24rem, calc(100% - 3rem)); margin: 3rem auto; box-shadow:10px 10px #000; font-family: 'Outfit', sans-serif;}
  
   </style>
 </head>
 <body>
-  <main role="main">
+  <main>
 <div class="container">
+  <img src="./assets/images/illustration-article.svg" alt="Web 3.0 image" />
   <p class="tag">Learning</p>
 
-  <p>Published 21 Dec 2023</p>
+  <p class="published">Published 21 Dec 2023</p>
 
   <h1>HTML & CSS foundations</h1>
 
