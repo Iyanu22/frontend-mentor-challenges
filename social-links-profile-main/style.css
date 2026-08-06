@@ -10,6 +10,7 @@
     --green-color:hsl(75, 94%, 57%);
     --neutral-color: hsl(0, 0%, 100%);
     --border-color: hsl(0, 0%, 0%);
+    --attribution-color: hsl(228, 45%, 44%);
 
 }
 main{
@@ -69,3 +70,5 @@ h1{
 .container a:hover{
     background-color: var(--green-color);
 }
+    .attribution { font-size: clamp(0.625rem, 0.5vw + 0.6rem, 0.75rem); text-align: center; }
+    .attribution a { color: var(--attribution-color); }
