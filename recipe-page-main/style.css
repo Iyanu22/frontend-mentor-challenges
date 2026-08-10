@@ -12,16 +12,17 @@
     --brown-800: hsl(14, 45%, 36%);
     --rose-800: hsl(332, 51%, 32%);
     --rose-50: hsl(330, 100%, 98%);
+    --attribution-link: hsl(228, 45%, 44%);
 }
 body{
     background-color: var(--stone-100);
   
 }
 .attribution {
-    font-size: 0.6875rem; text-align: center;
+    font-size: clamp(0.625rem, 0.5vw + 0.55rem, 0.75rem); text-align: center;
 }
 .attribution a {
-     color: hsl(228, 45%, 44%); 
+     color: var(--attribution-link);
 }
 main{
     
@@ -56,7 +57,7 @@ main{
     padding: clamp(0.5rem, 1vw, 1rem);
 }
 .preparation ul{
-    padding-left: 1.5rem;
+    padding-inline-start: 1.5rem;
 
 }
 .preparation h3{
@@ -64,12 +65,12 @@ main{
     margin-block-end: clamp(0.5rem, 1vw, 1rem);
     color: var(--rose-800);
 }
-.Ingredients h2, h2{
+h2, .Ingredients h2{
     color: var(--rose-800);
     padding: clamp(0.5rem, 1vw, 1rem);
 }
 .Ingredients ul, .Ingredients ol{
-    padding-left: 1.5rem;
+    padding-inline-start: 1.5rem;
 }
 table{
     width: 100%;
