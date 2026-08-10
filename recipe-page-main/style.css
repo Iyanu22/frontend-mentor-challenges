@@ -58,7 +58,7 @@ main{
     padding: clamp(0.5rem, 1vw, 1rem);
 }
 .preparation ul{
-    padding-inline-start: 1.5rem;
+    padding-inline-start: clamp(1rem, 2vw, 1.5rem);
 
 }
 .preparation h3{
@@ -71,7 +71,7 @@ h2, .Ingredients h2{
     padding: clamp(0.5rem, 1vw, 1rem);
 }
 .Ingredients ul, .Ingredients ol{
-    padding-inline-start: 1.5rem;
+    padding-inline-start: clamp(1rem, 2vw, 1.5rem);
 }
 table{
     width: 100%;
