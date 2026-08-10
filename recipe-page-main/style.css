@@ -13,6 +13,7 @@
     --rose-800: hsl(332, 51%, 32%);
     --rose-50: hsl(330, 100%, 98%);
     --attribution-link: hsl(228, 45%, 44%);
+    --container-border: hsl(0, 0%, 80%);
 }
 body{
     background-color: var(--stone-100);
@@ -33,9 +34,9 @@ main{
     min-height: 100vh;  
 }
 .container{
-    border: 1px solid hsl(0, 0%, 80%);
+    border: 1px solid var(--container-border);
     width: clamp(20rem, 90vw, 40rem);
-    padding: 1.5rem;
+    padding: clamp(1rem, 3vw, 2.5rem);
     border-radius: 10px;
     font-family: 'young-serif', sans-serif;
     background-color: var(--neutral-color);
