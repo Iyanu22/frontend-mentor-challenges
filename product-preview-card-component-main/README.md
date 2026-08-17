@@ -47,13 +47,13 @@ Users should be able to:
 I learnt responsive design across different screen, mostly using clamp(), <picture> to switch images across different layout.
 
 ### Continued development
-1. Responsive Images- <picture>, <source>, <flex-shrink>
+1. Responsive Images- `<picture>, <source>, <flex-shrink>`
 2. Component layout- parent control layout, children control their own content
 3. CSS simplicity- fewer rules that are predictable than many rules
 
 ### Useful resources
 
-- [Example resource 1](https://courses.kevinpowell.co/p/courses/conquering-responsive-layouts/349964-day-2-getting-familiar-with-relative-units/995524-getting-familiar-with-relative-units) - It helped me for responsive layout.
+- [Example resource 1](https://courses.kevinpowell.co/p/courses/conquering-responsive-layouts/349964-day-2-getting-familiar-with-relative-units/995524-getting-familiar-with-relative-units) - It helped me to understand the concept of responsive layout.
 
 ### AI Collaboration
 
