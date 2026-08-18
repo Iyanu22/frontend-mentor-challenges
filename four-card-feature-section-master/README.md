@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Iyanu22/frontend-mentor-challenges/tree/main/four-card-feature-section-master)
-- Live Site URL: [Add live site URL here](https://iyanu22.github.io/frontend-mentor-challenges/four-card-feature-section-master/)
+- Solution URL: (https://github.com/Iyanu22/frontend-mentor-challenges/tree/main/four-card-feature-section-master)
+- Live Site URL: (https://iyanu22.github.io/frontend-mentor-challenges/four-card-feature-section-master/)
 
 ## My process
 
@@ -43,7 +43,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-*
+
 
 ### What I learned
 
@@ -59,4 +59,4 @@ I used ChatGPT for my Code Review.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Iyanu22)
+- Frontend Mentor - [@Iyanu22](https://www.frontendmentor.io/profile/Iyanu22)
