@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.heading {
+  text-align: center;
+  max-width: 34rem;
+  margin: 0 auto 4rem;
+}
+.heading h1 {
+  color: hsl(212, 6%, 44%);
+  font-weight: 200;
+  margin-bottom: 0.25rem;
+}
+.heading h2 {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 1rem;
+}
+.heading p {
+  color: hsl(212, 6%, 44%);
+  line-height: 1.6;
+}
+
+.container {
+  width: min(90%, 70rem);
+  margin-inline: auto;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-top: 1rem;
+}
+.card p {
+  color: hsl(212, 6%, 44%);
+  line-height: 1.6;
+}
+.card h3 {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 0.75rem;
+}
+
+.card-one, .card-two, .card-three, .card-four {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 22rem;
+  min-height: 15rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card-center {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card-one {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.card-two {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.card-four {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.card-three {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+@media (max-width: 900px) {
+  .card {
+    flex-direction: column;
+  }
+  .card-center {
+    width: 100%;
+  }
+  .card-one,
+  .card-two,
+  .card-three,
+  .card-four {
+    width: min(100%, 22rem);
+    margin-inline: auto;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    width: min(90%, 24rem);
+  }
+  .card {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  card-center, .card-one, .card-two, .card-three, .card-four {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
