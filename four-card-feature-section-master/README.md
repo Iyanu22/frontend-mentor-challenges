@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot/Four-card-feature-section.png) Desktop View
-![](./screenshot/-Four-card-feature-section-mobile.png) Mobile View
+![](./screenshot/Four-card-feature-section.png) 
+![](./screenshot/-Four-card-feature-section-mobile.png) 
 
 ### Links
 
